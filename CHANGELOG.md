@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/adam-26/react-router-dispatcher-metadata/compare/v1.1.0...v1.1.1) (2017-12-19)
+
+
+### Bug Fixes
+
+* **build:** greenkeeper ([#2](https://github.com/adam-26/react-router-dispatcher-metadata/issues/2)) ([96af7ff](https://github.com/adam-26/react-router-dispatcher-metadata/commit/96af7ff))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2017-12-19)
 
