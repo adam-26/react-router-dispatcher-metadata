@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import { withActions } from 'react-router-dispatcher';
-import metadataAction from 'react-router-dispatcher-metadata';
+import { withMetadata } from 'react-router-dispatcher-metadata';
 
 class Home extends Component {
 
@@ -19,4 +18,4 @@ class Home extends Component {
   }
 }
 
-export default withActions(metadataAction())(Home);
+export default withMetadata()(Home);

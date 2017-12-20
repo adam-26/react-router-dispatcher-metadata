@@ -1,4 +1,9 @@
 import metadataAction, { METADATA } from './metadataAction';
+import withMetadata from './withMetadata';
 
-export { METADATA };
+export {
+    withMetadata,
+    METADATA
+};
+
 export default metadataAction;

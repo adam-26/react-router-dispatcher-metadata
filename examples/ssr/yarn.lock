@@ -4611,9 +4611,15 @@ react-router-config@^1.0.0-beta.4:
   version "1.0.0-beta.4"
   resolved "https://registry.yarnpkg.com/react-router-config/-/react-router-config-1.0.0-beta.4.tgz#d202496dd0eabdf06cf24eb0793031f6891eef01"
 
-react-router-dispatcher@^2.0.0-beta.19:
-  version "2.0.0-beta.27"
-  resolved "https://registry.yarnpkg.com/react-router-dispatcher/-/react-router-dispatcher-2.0.0-beta.27.tgz#9cdbb4f85f775f2c6a27aedb74729ff7396e47a7"
+react-router-dispatcher-metadata@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-router-dispatcher-metadata/-/react-router-dispatcher-metadata-1.1.2.tgz#7df34fc8873d188b9d34c9e3bbe8d7b7cfead6bf"
+  dependencies:
+    react-router-metadata "^1.2.0"
+
+react-router-dispatcher@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-router-dispatcher/-/react-router-dispatcher-2.0.1.tgz#340b8c12879103233d40df31e998626483012f82"
   dependencies:
     history "^4.7.2"
     hoist-non-react-statics "^2.3.1"
@@ -4632,9 +4638,9 @@ react-router-dom@^4.2.2:
     react-router "^4.2.0"
     warning "^3.0.0"
 
-react-router-metadata@^1.1.1:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-router-metadata/-/react-router-metadata-1.2.0.tgz#a514313a1ba1e09b21b1804a16824f357b04c8ab"
+react-router-metadata@^1.2.0, react-router-metadata@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/react-router-metadata/-/react-router-metadata-1.3.1.tgz#069cfe357ea3368f3a273aa6a9a130d4aae371ec"
   dependencies:
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.2"

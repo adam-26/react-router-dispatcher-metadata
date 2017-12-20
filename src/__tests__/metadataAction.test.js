@@ -1,7 +1,5 @@
 import getMetadataAction, { METADATA } from "../metadataAction";
 
-// TODO: Remove ENZYME dependencies from package.json
-
 describe('metadataAction', () => {
     let action;
 
