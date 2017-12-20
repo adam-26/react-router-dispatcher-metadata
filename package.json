@@ -1,6 +1,6 @@
 {
   "name": "react-router-dispatcher-metadata",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "react-router-dispatcher action for HTML metadata",
   "main": "lib/index.js",
   "directories": {
