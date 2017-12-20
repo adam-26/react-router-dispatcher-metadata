@@ -38,7 +38,7 @@ yarn add react-router-dispatcher-metadata
 ### Usage
 
 ```js
-import metadataAction, { METADATA } from 'react-router-dispatcher-metadata';
+import metadataAction, { withMetadata, METADATA } from 'react-router-dispatcher-metadata';
 
 // METADATA is the action name, used to configure react-router-dispatcher
 ```
@@ -51,8 +51,7 @@ import metadataAction, { METADATA } from 'react-router-dispatcher-metadata';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { renderRoutes } from 'react-router-config';
-import { withActions } from 'react-router-dispatcher';
-import metadataAction from 'react-router-dispatcher-metadata';
+import { withMetadata } from 'react-router-dispatcher-metadata';
 
 class AppRoot extends Component {
 
@@ -89,7 +88,7 @@ class AppRoot extends Component {
 // - the map function MUST map params to the SAME prop values the component will receive during a normal render
 const mapParamsToProps = ({ assets }) => ({ assets });
 
-export default withActions(metadataAction(mapParamsToProps))(Root);
+export default withMetadata({ mapParamsToProps })(Root);
 ```
 
 ##### Configuring the metadata action using [react-router-dispatcher](https://github.com/adam-26/react-router-dispatcher)
@@ -110,11 +109,11 @@ const {
 
 ### API
 
-`metadataAction(paramsToProps)`
+`metadataAction(options)`
 
-#### Parameters
+#### Options
 
-**paramsToProps**: `(params: Object, routerCtx: Object) => Object`
+**mapParamsToProps**: `(params: Object, routerCtx: Object) => Object`
 
   * An optional function that maps action parameters to component props
 
