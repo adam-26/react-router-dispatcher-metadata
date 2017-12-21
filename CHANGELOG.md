@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/adam-26/react-router-dispatcher-metadata/compare/v1.2.0...v1.2.1) (2017-12-21)
+
+
+### Bug Fixes
+
+* **code:** stateless components ([9704b4b](https://github.com/adam-26/react-router-dispatcher-metadata/commit/9704b4b))
+* **code:** stateless components ([#5](https://github.com/adam-26/react-router-dispatcher-metadata/issues/5)) ([dcbdb2c](https://github.com/adam-26/react-router-dispatcher-metadata/commit/dcbdb2c))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/adam-26/react-router-dispatcher-metadata/compare/v1.1.2...v1.2.0) (2017-12-20)
 
