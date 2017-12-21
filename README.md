@@ -88,7 +88,7 @@ class AppRoot extends Component {
 // - the map function MUST map params to the SAME prop values the component will receive during a normal render
 const mapParamsToProps = ({ assets }) => ({ assets });
 
-export default withMetadata({ mapParamsToProps })(Root);
+export default withMetadata({ mapParamsToProps })(AppRoot);
 ```
 
 ##### Configuring the metadata action using [react-router-dispatcher](https://github.com/adam-26/react-router-dispatcher)
