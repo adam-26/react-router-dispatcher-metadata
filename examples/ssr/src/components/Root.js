@@ -18,7 +18,7 @@ class Root extends Component {
 
     static getMetadata(match, { assets }) {
         return {
-            htmlAttributes: {lang: 'en', amp: undefined},
+            htmlAttributes: {lang: 'en', amp: 'amp'},
             bodyAttributes: {className: 'root'},
             titleTemplate: "MySite.com - %s",
             meta: [

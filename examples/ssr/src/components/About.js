@@ -1,21 +1,18 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { withMetadata } from 'react-router-dispatcher-metadata';
 
-class About extends Component {
-
-  static getMetadata(/*match, props*/) {
-    return {
-      title: 'About Page'
-    };
-  }
-
-  render() {
+const About = (/*props*/) => {
     return (
-      <div>
-        <h1>About what?</h1>
-      </div>
+        <div>
+          <h1>About what?</h1>
+        </div>
     );
-  }
-}
+};
 
-export default withMetadata()(About);
+About.getMetadata = (/*match, props*/) => {
+    return {
+        title: 'About Page'
+    };
+};
+
+export default withMetadata({ mapParamsToProps: params => params })(About);
