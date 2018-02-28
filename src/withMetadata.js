@@ -2,6 +2,6 @@
 import { withActions } from 'react-router-dispatcher';
 import metadataAction from './';
 
-export default function withMetadata(options) {
-    return withActions(metadataAction(options));
+export default function withMetadata({ mapParamsToProps, ...metadataOptions }) {
+    return withActions(mapParamsToProps, metadataAction(metadataOptions));
 }
