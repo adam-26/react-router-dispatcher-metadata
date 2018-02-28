@@ -4,8 +4,8 @@
 [![npm](https://img.shields.io/npm/v/react-router-dispatcher-metadata.svg)](https://www.npmjs.com/package/react-router-dispatcher-metadata)
 [![npm](https://img.shields.io/npm/dm/react-router-dispatcher-metadata.svg)](https://www.npmjs.com/package/react-router-dispatcher-metadata)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/adam-26/react-router-dispatcher-metadata/master.svg)](https://circleci.com/gh/adam-26/react-router-dispatcher-metadata/tree/master)
-[![Code Climate](https://img.shields.io/codeclimate/coverage/github/adam-26/react-router-dispatcher-metadata.svg)](https://codeclimate.com/github/adam-26/react-router-dispatcher-metadata)
-[![Code Climate](https://img.shields.io/codeclimate/github/adam-26/react-router-dispatcher-metadata.svg)](https://codeclimate.com/github/adam-26/react-router-dispatcher-metadata)
+[![Maintainability](https://api.codeclimate.com/v1/badges/60ba2c7c8b6a2a73d599/maintainability)](https://codeclimate.com/github/adam-26/react-router-dispatcher-metadata/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/60ba2c7c8b6a2a73d599/test_coverage)](https://codeclimate.com/github/adam-26/react-router-dispatcher-metadata/test_coverage)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 A [react-router-dispatcher](https://github.com/adam-26/react-router-dispatcher) **action** for defining HTML metadata.
