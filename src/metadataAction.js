@@ -4,16 +4,12 @@ import withReactRouterMetadata from 'react-router-metadata';
 
 export const METADATA = 'metadata';
 
-export default function metadataAction(options?: {
+export default function metadataAction(metadataOptions?: {
         mapParamsToProps?: (params: Object, routerCtx: Object) => Object,
         staticMethodName?: string,
         componentStaticMethodName?: string,
         metadataPropName?: string
-    }) {
-    const {
-        mapParamsToProps,
-        ...metadataOpts
-    } = Object.assign({ mapParamsToProps: params => params }, options);
+    } = {}) {
 
     return {
         name: METADATA,
@@ -28,11 +24,10 @@ export default function metadataAction(options?: {
             metadata: metadata || Metadata.createForHydration()
         }),
 
-        mapParamsToProps: (params, routerCtx) => ({
-            ...mapParamsToProps(params, routerCtx),
-            metadata: params.metadata
-        }),
+        filterParamsToProps: ({ metadata }) => {
+            return { metadata };
+        },
 
-        hoc: (Component) => withReactRouterMetadata(metadataOpts)(Component)
+        hoc: (Component) => withReactRouterMetadata(metadataOptions)(Component)
     };
 }

@@ -45,17 +45,15 @@ describe('metadataAction', () => {
         });
     });
 
-    describe('mapParamsToProps', () => {
+    describe('filterParamsToProps', () => {
         test('assigns props from action factory', () => {
             const md = { hello: 'world' };
             const params = { random: 1, metadata: md };
-            action = getMetadataAction((params) => ({
-                random: params.random
-            }));
+            action = getMetadataAction();
 
-            const props = action.mapParamsToProps(params, {});
+            const props = action.filterParamsToProps(params, {});
             expect(props.metadata).toEqual(md);
-            expect(props.random).toBe(1);
+            expect(props.random).not.toBeDefined();
         });
     });
 
