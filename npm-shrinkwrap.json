@@ -1,6 +1,6 @@
 {
   "name": "react-router-dispatcher-metadata",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -2893,7 +2893,8 @@
     "hoist-non-react-statics": {
       "version": "2.3.1",
       "resolved": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-2.3.1.tgz",
-      "integrity": "sha1-ND24TGAYxlB3iJgkATWhQg7iLOA="
+      "integrity": "sha1-ND24TGAYxlB3iJgkATWhQg7iLOA=",
+      "dev": true
     },
     "home-or-tmp": {
       "version": "2.0.0",
@@ -3042,6 +3043,7 @@
       "version": "2.2.2",
       "resolved": "https://registry.npmjs.org/invariant/-/invariant-2.2.2.tgz",
       "integrity": "sha1-nh9WrArNtr8wMwbzOL47IErmA2A=",
+      "dev": true,
       "requires": {
         "loose-envify": "1.3.1"
       }
@@ -3795,7 +3797,8 @@
     "js-tokens": {
       "version": "3.0.2",
       "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-3.0.2.tgz",
-      "integrity": "sha1-mGbfOVECEw449/mWvOtlRDIJwls="
+      "integrity": "sha1-mGbfOVECEw449/mWvOtlRDIJwls=",
+      "dev": true
     },
     "js-yaml": {
       "version": "3.10.0",
@@ -4059,6 +4062,7 @@
       "version": "1.3.1",
       "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.3.1.tgz",
       "integrity": "sha1-0aitM/qc4OcT1l/dCsi3SNR4yEg=",
+      "dev": true,
       "requires": {
         "js-tokens": "3.0.2"
       }
@@ -11597,7 +11601,8 @@
     "react-display-name": {
       "version": "0.2.3",
       "resolved": "https://registry.npmjs.org/react-display-name/-/react-display-name-0.2.3.tgz",
-      "integrity": "sha1-9QIE1DDJyoGbwLreAwbpF12NGYc="
+      "integrity": "sha1-9QIE1DDJyoGbwLreAwbpF12NGYc=",
+      "dev": true
     },
     "react-dom": {
       "version": "16.2.0",
@@ -11659,9 +11664,10 @@
       }
     },
     "react-router-metadata": {
-      "version": "1.3.2",
-      "resolved": "https://registry.npmjs.org/react-router-metadata/-/react-router-metadata-1.3.2.tgz",
-      "integrity": "sha512-wQ0+YISMJiVYBWmBlCmNFvifDB+JLzDhevyaXZCTcrfR0mhm0/Ghiwk8YPw6Ft01HrRyK1zn0RtAzi4Ci52ttQ==",
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/react-router-metadata/-/react-router-metadata-2.0.0.tgz",
+      "integrity": "sha512-Z21VYRBHaTFJi7a4dsVHOQCpDEmOZ834zkUtEnzhnOm3C9DklgZPpDCFqI+OmQIaSMXt7wdvncF0jCKBN8i/iQ==",
+      "dev": true,
       "requires": {
         "hoist-non-react-statics": "2.3.1",
         "invariant": "2.2.2",
