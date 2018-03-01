@@ -26,13 +26,13 @@ about how to define metadata you should view that packages [readme file](https:/
 ##### NPM
 
 ```js
-npm install --save react-router-dispatcher-metadata
+npm install --save react-router-dispatcher-metadata react-router-metadata
 ```
 
 ##### Yarn
 
 ```js
-yarn add react-router-dispatcher-metadata
+yarn add react-router-dispatcher-metadata react-router-metadata
 ```
 
 ### Usage

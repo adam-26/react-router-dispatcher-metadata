@@ -64,10 +64,8 @@
   },
   "peerDependencies": {
     "react": "^16.0.0",
-    "react-router-dispatcher": "^6.0.0"
-  },
-  "dependencies": {
-    "react-router-metadata": "^1.3.2"
+    "react-router-dispatcher": "^6.0.0",
+    "react-router-metadata": "^2.0.0"
   },
   "jest": {
     "mapCoverage": true,
