@@ -17,7 +17,7 @@ export default function metadataAction(metadataOptions?: {
         staticMethodName: 'preloadMetadata',
 
         initServerAction: ({ metadata }) => ({
-            metadata: metadata || Metadata.createNew()
+            metadata: metadata || Metadata.createForServerStreamRender()
         }),
 
         initClientAction: ({ metadata }) => ({
